@@ -19,7 +19,7 @@ public class CustomSpawner : MonoBehaviour
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     const float MinScaleDistance = 0.1f;
-    const float Rotationspeed = 1f;
+    const float Rotationspeed = 0.5f;
     private Vector2 touchStartPosition;
     private float initialTouchDistance;
     private Vector3 initialObjectScale;
